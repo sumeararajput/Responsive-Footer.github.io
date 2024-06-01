@@ -6,9 +6,10 @@
 }
 
 .container{
-    width: 96.10vw;
+    height: 100%;
+    width: 98%;
     background-color:rgba(0, 255, 255, 0.123);
-    padding: 20px;
+   
 }
 .h1{
   font-size: 80px;
@@ -23,10 +24,10 @@
 .box{
    
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
    height: 400px;
    width: 1200px;
-    border: 1px solid black; 
+   border: 1px solid black; 
    background-color: rgba(0, 0, 139, 0.966);
    border-radius: 8px;
    display: flex;
@@ -34,7 +35,7 @@
    justify-content: space-around;
   align-items: center;
 }
-.sec1{
+/* .sec1{
     
 }
 .sec2{
@@ -42,21 +43,23 @@
 }
 .sec3{
     
-}
-.sec4{
-    /* border: 1px solid; */
-    /* width: 120px;
-    margin-right: -10px; */
-}
+} */
+  .sec4{
+     /* border: 1px solid; 
+     width: 120px;
+    margin-right: -10px;  */
+    margin-top: -32px;
+}  
 .input{
 
-    border: 1px solid white;
+   border: 1px solid white;
    background-color:  rgba(0, 0, 139, 0.966);
    padding: 10px 70px;
    border-radius: 5px;
    margin-top: 30px;
    color: white;
    font-weight: bold;
+   outline: none;
   
 }
 
@@ -71,9 +74,9 @@
     color: rgba(0, 0, 139, 0.966) ;
     cursor: pointer;
 }
-.fa-facebook{
+/* .fa-facebook{
 
-}
+} */
 .fa-github{
   margin-left: 20px;
 }
@@ -90,6 +93,7 @@
     .container{
         box-sizing: border-box;
         padding: 10px;
+      
      } 
      .h1{
         font-size: 10px;
@@ -100,7 +104,7 @@
         margin-left: 180px;
     }
      .box{
-         width: 400px;
+         width: 350px;
         height: 200px; 
         font-size: 5px;
        box-sizing: border-box;
@@ -123,6 +127,7 @@
         font-size: 3.99px;
         width: 130px;
         margin-right: -10px;
+        margin-top: -12px;
     }
      .input{
        display: block;
@@ -164,7 +169,7 @@
      .container{
         box-sizing: border-box;
         padding: 10px ;
-      
+       
       } 
     .h1{
         font-size: 20px;
